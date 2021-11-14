@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gloire Nianga Portefolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <a href="#">
+              <img src="src/img/logo.png" alt="" class="nav__logo" />
+            </a>
+          </div>
+          <button
+            class="nav__toggler-open unstyle"
+            aria-label="navigation toggler"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <ul class="nav__list unstyle">
+            <li>
+              <button
+                class="nav__toggler-close unstyle"
+                aria-label="navigation toggler"
+              >
+                <i class="bi bi-x-lg"></i>
+              </button>
+            </li>
+            <li class="nav__item">
+              <a href="#intro" class="nav__link">Accueil</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">A propos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#formations" class="nav__link">Formations</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Compétences</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="intro">
+      <div class="container intro__container">
+        <div>
+          <h1 class="section__title section__title-intro">
+            Hello, Je suis <strong>Gloire Nianga !</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle-intro">
+            Un langage qui n'affecte pas votre manière de penser la
+            programmation ne vaut pas la peine d'être connu. <br />
+          </p>
+          <a href="#" class="btn btn-primary btn-large">Télecharger mon CV</a>
+        </div>
+        <img src="src/img/hero.png" alt="" class="section__img-intro" />
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="about" id="about">
+      <div class="container about__container">
+        <img src="src/img/about.png" alt="" class="about__img" />
+        <div>
+          <div class="about__content">
+            <h3 class="section__subtitle">A propos de moi</h3>
+            <p class="section__text">
+              Bonjour, je m'appelle KIBA Gloire et j'ai 18 ans, je suis
+              actuellement en formation Bac + 1 Informatique et numérique -
+              Support et conseil au lycée GUSTAVE FLAUBERT / Rouen 76044
+            </p>
+
+            <a href="#" class="btn btn-secondary">Embaucher moi !</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formations -->
+    <section class="formations" id="formations">
+      <div class="container">
+        <h2 class="section__title">Mon Parcours</h2>
+        <div class="formations__wraper">
+          <div class="formation">
+            <h3 class="section__subtitle section__subtitle-formation">
+              BACCALAURÉAT STMG (SIG)
+            </h3>
+            <p class="section__subtitle">2020-2021</p>
+            <p class="section__text">
+              Cette spécialité privilégie une approche concrète autour de 4
+              thèmes : Organisation informatisée ; Information pour décider et
+              agir ; Communiquer pour collaborer ; Rechercher la performance du
+              système d’information.
+            </p>
+            <a
+              href="https://www.orleans-informatique.com/etudiants/informatique/terminale-stmg-sig/presentation"
+              target="_blank"
+              class="btn btn-primary"
+              >En savoir plus</a
+            >
+          </div>
+          <div class="formation">
+            <h3 class="section__subtitle section__subtitle-formation">
+              Informatique et numérique.
+            </h3>
+            <p class="section__subtitle">2021-2022 (En cours...)</p>
+            <p class="section__text">
+              Intitulé officiel figurant sur le diplôme : Diplôme
+              d'établissement Bac + 1 Informatique et numérique - Support et
+              conseil digital
+            </p>
+            <a
+              href="https://formation.cnam.fr/rechercher-par-discipline/diplome-d-etablissement-bac-1-informatique-et-numerique-support-et-conseil-digital-1263193.kjsp"
+              target="_blank"
+              class="btn btn-primary"
+              >En savoir plus</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="container skills__container">
+        <img src="src/img/skills.png" alt="" class="skills__img" />
+        <div class="skills__wrapper">
+          <h3 class="section__subtitle section__subtitle-skills">
+            Mes compétences
+          </h3>
+          <div class="skills__bar">
+            <div class="skills__bar-info">
+              <span class="skills__bar-techno">HTML</span>
+            </div>
+            <div class="skills__bar-progress html">
+              <span></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__bar-info">
+              <span class="skills__bar-techno">CSS</span>
+            </div>
+            <div class="skills__bar-progress css">
+              <span></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__bar-info">
+              <span class="skills__bar-techno">JavaScript</span>
+            </div>
+            <div class="skills__bar-progress javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__bar-info">
+              <span class="skills__bar-techno">PHP</span>
+            </div>
+            <div class="skills__bar-progress php">
+              <span></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__bar-info">
+              <span class="skills__bar-techno">MySQL</span>
+            </div>
+            <div class="skills__bar-progress mysql">
+              <span></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__bar-info">
+              <span class="skills__bar-techno">LUA</span>
+            </div>
+            <div class="skills__bar-progress lua">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <a href="tel:+33751196079" class="footer__link"
+          ><i class="fas fa-phone-square-alt"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/gatse-gloire-304273225/"
+          target="_blank"
+          class="footer__link"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
