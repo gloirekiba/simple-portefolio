@@ -13,3 +13,5 @@ A simple portefolio built with html, css
 [https://gloirekiba.github.io/simple-portefolio/](https://gloirekiba.github.io/simple-portefolio/)
 
 ## Screenshots
+
+![Website screenshot](https://gdurl.com/n3z9)
